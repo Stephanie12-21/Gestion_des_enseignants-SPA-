@@ -1,0 +1,32 @@
+
+.enregistrer-button {
+    border-color: rgb(32, 226, 32);
+    color: rgb(48, 231, 48);
+}
+
+.annuler-button {
+    border-color: rgb(220, 58, 58);
+    color: rgb(220, 58, 58);
+}
+
+.addbutton{
+    color: rgb(95, 95, 241); 
+}
+
+.addbutton:hover{
+    color: rgb(7, 7, 228);
+}
+
+.enregistrer-button:hover {
+    color: white !important; 
+    background-color: rgb(9, 219, 9) !important;
+    border-color: rgb(9, 219, 9) !important; 
+}
+
+.annuler-button:hover {
+    color: white !important;
+    background-color: red !important;
+    border-color: red !important; 
+}
+
+

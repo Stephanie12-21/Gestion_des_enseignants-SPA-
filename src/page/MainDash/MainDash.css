@@ -1,0 +1,35 @@
+.MainDash{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cardContainer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px; 
+  }
+  
+  .cardContainer .card {
+    flex: 1; 
+  }
+
+  .ChartContainer{
+    padding: 20px;
+    border-radius: 0.8rem;
+    background-color: var(--purple);
+    gap:20px;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 1202px;
+    height: 300px;
+    margin-left: 25px;
+
+  
+  }

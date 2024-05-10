@@ -1,0 +1,67 @@
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Table {
+  flex: 1; /* Permet au tableau de prendre tout l'espace disponible */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start; /* Aligne le bouton à droite */
+  margin-top: 10px; /* Ajoute une marge en haut du bouton */
+}
+
+.addbutton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addbutton:hover {
+  background-color: #0056b3;
+}
+.Table td,
+      th {
+        border: none !important;
+      }
+      
+      .Table:first-child {
+        border-radius: 0.7rem !important;
+      }
+      
+      .view {
+        color: rgb(125, 237, 125); 
+        margin-right: 5px;
+        
+      }
+      
+      .view:hover {
+        color: rgb(9, 219, 9); /* Couleur différente au survol */
+      }
+      
+      .edit {
+        color: rgb(95, 95, 241); 
+        margin-right: 5px; 
+       
+      }
+      .button{
+        border: none !important;
+      }
+      
+      .edit:hover {
+        color: rgb(7, 7, 228); /* Couleur différente au survol */
+      }
+      
+      .delete {
+        color: rgb(220, 58, 58);
+        
+      }
+      
+      .delete:hover {
+        color: red; /* Couleur différente au survol */
+      }
